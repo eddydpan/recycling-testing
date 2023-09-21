@@ -4,7 +4,7 @@ import openai
 from PIL import Image
 import pandas as pd
 
-openai.api_key = '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'
+# openai.api_key = 
 
 
 blip_processor_base = AutoProcessor.from_pretrained("Salesforce/blip-vqa-base")
